@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Hotel Types -->
+        <record id="f-amenity-101" model="feat.amenities">
+            <field name="name">Room service</field>
+            <field name="icon" type="base64" file="appeul_travel_reservation18/static/img/room-service.svg"/>
+        </record>
+        <record id="f-amenity-102" model="feat.amenities">
+            <field name="name">Restaurants</field>
+             <field name="icon" type="base64" file="appeul_travel_reservation18/static/img/restaurant.svg"/>
+        </record>
+        <record id="f-amenity-103" model="feat.amenities">
+            <field name="name">Tea/coffee maker</field>
+             <field name="icon" type="base64" file="appeul_travel_reservation18/static/img/tea-coffee.svg"/>
+        </record>
+         <record id="f-amenity-104" model="feat.amenities">
+            <field name="name">Free WIFI</field>
+              <field name="icon" type="base64" file="appeul_travel_reservation18/static/img/wifi.svg"/>
+        </record>
+        <record id="f-amenity-105" model="feat.amenities">
+            <field name="name">Airport Transfer</field>
+             <field name="icon" type="base64" file="appeul_travel_reservation18/static/img/airport-transfer.svg"/>
+        </record>
+
+
+
+    </data>
+</odoo>

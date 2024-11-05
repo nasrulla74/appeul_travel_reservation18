@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- destination_groups -->
+    <record id="destination_groups_action" model="ir.actions.act_window">
+        <field name="name">Destination Groups</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">destination.group</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Destination Groups
+            </p>
+        </field>
+    </record>
+    <record id="view_destination_groups_list" model="ir.ui.view">
+        <field name="name">view.destination.groups.list</field>
+        <field name="model">destination.group</field>
+        <field name="arch" type="xml">
+            <list>
+
+                <field name="name" />
+                <field name="destination_group_ids" />
+
+
+            </list>
+        </field>
+    </record>
+    <record id="view_destination_groups_form" model="ir.ui.view">
+        <field name="name">view.destination.groups.form</field>
+        <field name="model">destination.group</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                       <group>
+                            <field name="name" />
+                            <field name="destination_group_ids" widget="many2many_tags"/>
+                        </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+
+
+</odoo>

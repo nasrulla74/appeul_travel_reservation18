@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='utf-8'?>
+ <odoo>
+ <data noupdate="1">
+
+<record id="fcat_1" model="amenity.category">
+<field name="name">Bathroom</field>
+</record>
+<record id="fcat_2" model="amenity.category">
+<field name="name">Bedroom</field>
+</record>
+<record id="fcat_3" model="amenity.category">
+<field name="name">View</field>
+</record>
+<record id="fcat_4" model="amenity.category">
+<field name="name">Outdoors</field>
+</record>
+<record id="fcat_5" model="amenity.category">
+<field name="name">Kitchen</field>
+</record>
+<record id="fcat_6" model="amenity.category">
+<field name="name">Room Amenities</field>
+</record>
+<record id="fcat_7" model="amenity.category">
+<field name="name">Pets</field>
+</record>
+<record id="fcat_8" model="amenity.category">
+<field name="name">Activities</field>
+</record>
+<record id="fcat_9" model="amenity.category">
+<field name="name">Living Area</field>
+</record>
+<record id="fcat_10" model="amenity.category">
+<field name="name">Media and Technology</field>
+</record>
+<record id="fcat_11" model="amenity.category">
+<field name="name">Food and Drink</field>
+</record>
+<record id="fcat_12" model="amenity.category">
+<field name="name">Internet</field>
+</record>
+<record id="fcat_13" model="amenity.category">
+<field name="name">Parking</field>
+</record>
+<record id="fcat_14" model="amenity.category">
+<field name="name">Reception services</field>
+</record>
+<record id="fcat_15" model="amenity.category">
+<field name="name">Entertainment and family services</field>
+</record>
+<record id="fcat_16" model="amenity.category">
+<field name="name">Cleaning services</field>
+</record>
+<record id="fcat_17" model="amenity.category">
+<field name="name">Business facilities</field>
+</record>
+<record id="fcat_18" model="amenity.category">
+<field name="name">Safety and security</field>
+</record>
+<record id="fcat_19" model="amenity.category">
+<field name="name">General</field>
+</record>
+<record id="fcat_20" model="amenity.category">
+<field name="name">Wellness</field>
+</record>
+<record id="fcat_21" model="amenity.category">
+<field name="name">Languages spoken</field>
+</record>
+<record id="fcat_22" model="amenity.category">
+<field name="name">Accessibility</field>
+</record>
+<record id="fcat_23" model="amenity.category">
+<field name="name">Transport</field>
+</record>
+<record id="fcat_24" model="amenity.category">
+<field name="name">Outdoor swimming pool</field>
+</record>
+<record id="fcat_25" model="amenity.category">
+<field name="name">2 swimming pools</field>
+</record>
+<record id="fcat_26" model="amenity.category">
+<field name="name">Services</field>
+</record>
+<record id="fcat_27" model="amenity.category">
+<field name="name">Ski</field>
+</record>
+<record id="fcat_28" model="amenity.category">
+<field name="name">Indoor swimming pool</field>
+</record>
+<record id="fcat_29" model="amenity.category">
+<field name="name">3 swimming pools</field>
+</record>
+<record id="fcat_30" model="amenity.category">
+<field name="name">Pool - outdoor (kids)</field>
+</record>
+
+ </data>
+ </odoo>

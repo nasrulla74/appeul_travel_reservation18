@@ -1,0 +1,1084 @@
+<?xml version='1.0' encoding='utf-8'?>
+ <odoo>
+ <data noupdate="1">
+
+<record id="FAC_1" model="hotel.amenities">
+<field name="name">Toilet paper</field>
+</record>
+<record id="FAC_2" model="hotel.amenities">
+<field name="name">Towels</field>
+</record>
+<record id="FAC_3" model="hotel.amenities">
+<field name="name">Additional toilet</field>
+</record>
+<record id="FAC_4" model="hotel.amenities">
+<field name="name">Bath or shower</field>
+</record>
+<record id="FAC_5" model="hotel.amenities">
+<field name="name">Slippers</field>
+</record>
+<record id="FAC_6" model="hotel.amenities">
+<field name="name">Private bathroom</field>
+</record>
+<record id="FAC_7" model="hotel.amenities">
+<field name="name">Toilet</field>
+</record>
+<record id="FAC_8" model="hotel.amenities">
+<field name="name">Free toiletries</field>
+</record>
+<record id="FAC_9" model="hotel.amenities">
+<field name="name">Hairdryer</field>
+</record>
+<record id="FAC_10" model="hotel.amenities">
+<field name="name">Shower</field>
+</record>
+<record id="FAC_11" model="hotel.amenities">
+<field name="name">Linen</field>
+</record>
+<record id="FAC_12" model="hotel.amenities">
+<field name="name">Wardrobe or closet</field>
+</record>
+<record id="FAC_13" model="hotel.amenities">
+<field name="name">City view</field>
+</record>
+<record id="FAC_14" model="hotel.amenities">
+<field name="name">Garden view</field>
+</record>
+<record id="FAC_15" model="hotel.amenities">
+<field name="name">View</field>
+</record>
+<record id="FAC_16" model="hotel.amenities">
+<field name="name">Outdoor furniture</field>
+</record>
+<record id="FAC_17" model="hotel.amenities">
+<field name="name">Outdoor dining area</field>
+</record>
+<record id="FAC_18" model="hotel.amenities">
+<field name="name">Sun terrace</field>
+</record>
+<record id="FAC_19" model="hotel.amenities">
+<field name="name">BBQ facilities</field>
+</record>
+<record id="FAC_20" model="hotel.amenities">
+<field name="name">Patio</field>
+</record>
+<record id="FAC_21" model="hotel.amenities">
+<field name="name">Balcony</field>
+</record>
+<record id="FAC_22" model="hotel.amenities">
+<field name="name">Terrace</field>
+</record>
+<record id="FAC_23" model="hotel.amenities">
+<field name="name">Garden</field>
+</record>
+<record id="FAC_24" model="hotel.amenities">
+<field name="name">Dining table</field>
+</record>
+<record id="FAC_25" model="hotel.amenities">
+<field name="name">Cleaning products</field>
+</record>
+<record id="FAC_26" model="hotel.amenities">
+<field name="name">Toaster</field>
+</record>
+<record id="FAC_27" model="hotel.amenities">
+<field name="name">Electric kettle</field>
+</record>
+<record id="FAC_28" model="hotel.amenities">
+<field name="name">Refrigerator</field>
+</record>
+<record id="FAC_29" model="hotel.amenities">
+<field name="name">Socket near the bed</field>
+</record>
+<record id="FAC_30" model="hotel.amenities">
+<field name="name">Drying rack for clothing</field>
+</record>
+<record id="FAC_31" model="hotel.amenities">
+<field name="name">Fold-up bed</field>
+</record>
+<record id="FAC_32" model="hotel.amenities">
+<field name="name">Clothes rack</field>
+</record>
+<record id="FAC_33" model="hotel.amenities">
+<field name="name">Bike tours</field>
+</record>
+<record id="FAC_34" model="hotel.amenities">
+<field name="name">Walking tours</field>
+</record>
+<record id="FAC_35" model="hotel.amenities">
+<field name="name">Beach</field>
+</record>
+<record id="FAC_36" model="hotel.amenities">
+<field name="name">Water sport facilities on site</field>
+</record>
+<record id="FAC_37" model="hotel.amenities">
+<field name="name">Snorkelling</field>
+</record>
+<record id="FAC_38" model="hotel.amenities">
+<field name="name">Diving</field>
+</record>
+<record id="FAC_39" model="hotel.amenities">
+<field name="name">Canoeing</field>
+</record>
+<record id="FAC_40" model="hotel.amenities">
+<field name="name">Windsurfing</field>
+</record>
+<record id="FAC_41" model="hotel.amenities">
+<field name="name">Karaoke</field>
+</record>
+<record id="FAC_42" model="hotel.amenities">
+<field name="name">Fishing</field>
+</record>
+<record id="FAC_43" model="hotel.amenities">
+<field name="name">Dining area</field>
+</record>
+<record id="FAC_44" model="hotel.amenities">
+<field name="name">Seating Area</field>
+</record>
+<record id="FAC_45" model="hotel.amenities">
+<field name="name">Desk</field>
+</record>
+<record id="FAC_46" model="hotel.amenities">
+<field name="name">Streaming service (like Netflix)</field>
+</record>
+<record id="FAC_47" model="hotel.amenities">
+<field name="name">Flat-screen TV</field>
+</record>
+<record id="FAC_48" model="hotel.amenities">
+<field name="name">Cable channels</field>
+</record>
+<record id="FAC_49" model="hotel.amenities">
+<field name="name">Satellite channels</field>
+</record>
+<record id="FAC_50" model="hotel.amenities">
+<field name="name">TV</field>
+</record>
+<record id="FAC_51" model="hotel.amenities">
+<field name="name">Fruits</field>
+</record>
+<record id="FAC_52" model="hotel.amenities">
+<field name="name">Kid meals</field>
+</record>
+<record id="FAC_53" model="hotel.amenities">
+<field name="name">Special diet menus (on request)</field>
+</record>
+<record id="FAC_54" model="hotel.amenities">
+<field name="name">Breakfast in the room</field>
+</record>
+<record id="FAC_55" model="hotel.amenities">
+<field name="name">Minibar</field>
+</record>
+<record id="FAC_56" model="hotel.amenities">
+<field name="name">Invoice provided</field>
+</record>
+<record id="FAC_57" model="hotel.amenities">
+<field name="name">Private check-in/check-out</field>
+</record>
+<record id="FAC_58" model="hotel.amenities">
+<field name="name">Luggage storage</field>
+</record>
+<record id="FAC_59" model="hotel.amenities">
+<field name="name">Tour desk</field>
+</record>
+<record id="FAC_60" model="hotel.amenities">
+<field name="name">Currency exchange</field>
+</record>
+<record id="FAC_61" model="hotel.amenities">
+<field name="name">Express check-in/check-out</field>
+</record>
+<record id="FAC_62" model="hotel.amenities">
+<field name="name">24-hour front desk</field>
+</record>
+<record id="FAC_63" model="hotel.amenities">
+<field name="name">Books, DVDs, or music for children</field>
+</record>
+<record id="FAC_64" model="hotel.amenities">
+<field name="name">Child safety socket covers</field>
+</record>
+<record id="FAC_65" model="hotel.amenities">
+<field name="name">Babysitting/child services</field>
+</record>
+<record id="FAC_66" model="hotel.amenities">
+<field name="name">Daily housekeeping</field>
+</record>
+<record id="FAC_67" model="hotel.amenities">
+<field name="name">Ironing service</field>
+</record>
+<record id="FAC_68" model="hotel.amenities">
+<field name="name">Dry cleaning</field>
+</record>
+<record id="FAC_69" model="hotel.amenities">
+<field name="name">Laundry</field>
+</record>
+<record id="FAC_70" model="hotel.amenities">
+<field name="name">Fax/photocopying</field>
+</record>
+<record id="FAC_71" model="hotel.amenities">
+<field name="name">Business centre</field>
+</record>
+<record id="FAC_72" model="hotel.amenities">
+<field name="name">Fire extinguishers</field>
+</record>
+<record id="FAC_73" model="hotel.amenities">
+<field name="name">Smoke alarms</field>
+</record>
+<record id="FAC_74" model="hotel.amenities">
+<field name="name">Security alarm</field>
+</record>
+<record id="FAC_75" model="hotel.amenities">
+<field name="name">Key card access</field>
+</record>
+<record id="FAC_76" model="hotel.amenities">
+<field name="name">Key access</field>
+</record>
+<record id="FAC_77" model="hotel.amenities">
+<field name="name">24-hour security</field>
+</record>
+<record id="FAC_78" model="hotel.amenities">
+<field name="name">Safety deposit box</field>
+</record>
+<record id="FAC_79" model="hotel.amenities">
+<field name="name">Shared lounge/TV area</field>
+</record>
+<record id="FAC_80" model="hotel.amenities">
+<field name="name">Air conditioning</field>
+</record>
+<record id="FAC_81" model="hotel.amenities">
+<field name="name">Wake-up service</field>
+</record>
+<record id="FAC_82" model="hotel.amenities">
+<field name="name">Tile/marble floor</field>
+</record>
+<record id="FAC_83" model="hotel.amenities">
+<field name="name">Heating</field>
+</record>
+<record id="FAC_84" model="hotel.amenities">
+<field name="name">Interconnected room(s) available</field>
+</record>
+<record id="FAC_85" model="hotel.amenities">
+<field name="name">Fan</field>
+</record>
+<record id="FAC_86" model="hotel.amenities">
+<field name="name">Family rooms</field>
+</record>
+<record id="FAC_87" model="hotel.amenities">
+<field name="name">Ironing facilities</field>
+</record>
+<record id="FAC_88" model="hotel.amenities">
+<field name="name">Non-smoking rooms</field>
+</record>
+<record id="FAC_89" model="hotel.amenities">
+<field name="name">Iron</field>
+</record>
+<record id="FAC_90" model="hotel.amenities">
+<field name="name">Room service</field>
+</record>
+<record id="FAC_91" model="hotel.amenities">
+<field name="name">Full body massage</field>
+</record>
+<record id="FAC_92" model="hotel.amenities">
+<field name="name">Hand massage</field>
+</record>
+<record id="FAC_93" model="hotel.amenities">
+<field name="name">Head massage</field>
+</record>
+<record id="FAC_94" model="hotel.amenities">
+<field name="name">Couples massage</field>
+</record>
+<record id="FAC_95" model="hotel.amenities">
+<field name="name">Foot massage</field>
+</record>
+<record id="FAC_96" model="hotel.amenities">
+<field name="name">Neck massage</field>
+</record>
+<record id="FAC_97" model="hotel.amenities">
+<field name="name">Back massage</field>
+</record>
+<record id="FAC_98" model="hotel.amenities">
+<field name="name">Spa facilities</field>
+</record>
+<record id="FAC_99" model="hotel.amenities">
+<field name="name">Sun umbrellas</field>
+</record>
+<record id="FAC_100" model="hotel.amenities">
+<field name="name">Sun loungers or beach chairs</field>
+</record>
+<record id="FAC_101" model="hotel.amenities">
+<field name="name">Massage</field>
+</record>
+<record id="FAC_102" model="hotel.amenities">
+<field name="name">English</field>
+</record>
+<record id="FAC_103" model="hotel.amenities">
+<field name="name">Hindi</field>
+</record>
+<record id="FAC_104" model="hotel.amenities">
+<field name="name">Towels/sheets (extra fee)</field>
+</record>
+<record id="FAC_105" model="hotel.amenities">
+<field name="name">Outdoor fireplace</field>
+</record>
+<record id="FAC_106" model="hotel.amenities">
+<field name="name">Picnic area</field>
+</record>
+<record id="FAC_107" model="hotel.amenities">
+<field name="name">Beachfront</field>
+</record>
+<record id="FAC_108" model="hotel.amenities">
+<field name="name">Private beach area</field>
+</record>
+<record id="FAC_109" model="hotel.amenities">
+<field name="name">Shared kitchen</field>
+</record>
+<record id="FAC_110" model="hotel.amenities">
+<field name="name">Tumble dryer</field>
+</record>
+<record id="FAC_111" model="hotel.amenities">
+<field name="name">Bicycle rental</field>
+</record>
+<record id="FAC_112" model="hotel.amenities">
+<field name="name">Live music/performance</field>
+</record>
+<record id="FAC_113" model="hotel.amenities">
+<field name="name">Cooking class</field>
+</record>
+<record id="FAC_114" model="hotel.amenities">
+<field name="name">Tour or class about local culture</field>
+</record>
+<record id="FAC_115" model="hotel.amenities">
+<field name="name">Themed dinner nights</field>
+</record>
+<record id="FAC_116" model="hotel.amenities">
+<field name="name">Evening entertainment</field>
+</record>
+<record id="FAC_117" model="hotel.amenities">
+<field name="name">Nightclub/DJ</field>
+</record>
+<record id="FAC_118" model="hotel.amenities">
+<field name="name">Entertainment staff</field>
+</record>
+<record id="FAC_119" model="hotel.amenities">
+<field name="name">Cycling</field>
+</record>
+<record id="FAC_120" model="hotel.amenities">
+<field name="name">Childrens playground</field>
+</record>
+<record id="FAC_121" model="hotel.amenities">
+<field name="name">Coffee house on site</field>
+</record>
+<record id="FAC_122" model="hotel.amenities">
+<field name="name">Concierge service</field>
+</record>
+<record id="FAC_123" model="hotel.amenities">
+<field name="name">ATM/cash machine on site</field>
+</record>
+<record id="FAC_124" model="hotel.amenities">
+<field name="name">Strollers</field>
+</record>
+<record id="FAC_125" model="hotel.amenities">
+<field name="name">Kids outdoor play equipment</field>
+</record>
+<record id="FAC_126" model="hotel.amenities">
+<field name="name">Indoor play area</field>
+</record>
+<record id="FAC_127" model="hotel.amenities">
+<field name="name">Board games/puzzles</field>
+</record>
+<record id="FAC_128" model="hotel.amenities">
+<field name="name">Shuttle service</field>
+</record>
+<record id="FAC_129" model="hotel.amenities">
+<field name="name">Grocery deliveries</field>
+</record>
+<record id="FAC_130" model="hotel.amenities">
+<field name="name">Minimarket on site</field>
+</record>
+<record id="FAC_131" model="hotel.amenities">
+<field name="name">Hypoallergenic</field>
+</record>
+<record id="FAC_132" model="hotel.amenities">
+<field name="name">Designated smoking area</field>
+</record>
+<record id="FAC_133" model="hotel.amenities">
+<field name="name">Allergy-free room</field>
+</record>
+<record id="FAC_134" model="hotel.amenities">
+<field name="name">Hardwood or parquet floors</field>
+</record>
+<record id="FAC_135" model="hotel.amenities">
+<field name="name">Soundproofing</field>
+</record>
+<record id="FAC_136" model="hotel.amenities">
+<field name="name">Packed lunches</field>
+</record>
+<record id="FAC_137" model="hotel.amenities">
+<field name="name">Soundproof rooms</field>
+</record>
+<record id="FAC_138" model="hotel.amenities">
+<field name="name">Barber/beauty shop</field>
+</record>
+<record id="FAC_139" model="hotel.amenities">
+<field name="name">Facilities for disabled guests</field>
+</record>
+<record id="FAC_140" model="hotel.amenities">
+<field name="name">Airport shuttle</field>
+</record>
+<record id="FAC_141" model="hotel.amenities">
+<field name="name">Wheelchair accessible</field>
+</record>
+<record id="FAC_142" model="hotel.amenities">
+<field name="name">Upper floors accessible by stairs only</field>
+</record>
+<record id="FAC_143" model="hotel.amenities">
+<field name="name">Personal trainer</field>
+</record>
+<record id="FAC_144" model="hotel.amenities">
+<field name="name">Fitness classes</field>
+</record>
+<record id="FAC_145" model="hotel.amenities">
+<field name="name">Fitness</field>
+</record>
+<record id="FAC_146" model="hotel.amenities">
+<field name="name">Spa/wellness packages</field>
+</record>
+<record id="FAC_147" model="hotel.amenities">
+<field name="name">Fitness centre</field>
+</record>
+<record id="FAC_148" model="hotel.amenities">
+<field name="name">Bathrobe</field>
+</record>
+<record id="FAC_149" model="hotel.amenities">
+<field name="name">Alarm clock</field>
+</record>
+<record id="FAC_150" model="hotel.amenities">
+<field name="name">Dressing room</field>
+</record>
+<record id="FAC_151" model="hotel.amenities">
+<field name="name">Extra long beds (> 2 metres)</field>
+</record>
+<record id="FAC_152" model="hotel.amenities">
+<field name="name">Inner courtyard view</field>
+</record>
+<record id="FAC_153" model="hotel.amenities">
+<field name="name">Sea view</field>
+</record>
+<record id="FAC_154" model="hotel.amenities">
+<field name="name">Aerobics</field>
+</record>
+<record id="FAC_155" model="hotel.amenities">
+<field name="name">Movie nights</field>
+</record>
+<record id="FAC_156" model="hotel.amenities">
+<field name="name">Badminton equipment</field>
+</record>
+<record id="FAC_157" model="hotel.amenities">
+<field name="name">Water park</field>
+</record>
+<record id="FAC_158" model="hotel.amenities">
+<field name="name">Darts</field>
+</record>
+<record id="FAC_159" model="hotel.amenities">
+<field name="name">Games room</field>
+</record>
+<record id="FAC_160" model="hotel.amenities">
+<field name="name">Snack bar</field>
+</record>
+<record id="FAC_161" model="hotel.amenities">
+<field name="name">Restaurant</field>
+</record>
+<record id="FAC_162" model="hotel.amenities">
+<field name="name">Accessible parking</field>
+</record>
+<record id="FAC_163" model="hotel.amenities">
+<field name="name">Lockers</field>
+</record>
+<record id="FAC_164" model="hotel.amenities">
+<field name="name">Trouser press</field>
+</record>
+<record id="FAC_165" model="hotel.amenities">
+<field name="name">Meeting/banquet facilities</field>
+</record>
+<record id="FAC_166" model="hotel.amenities">
+<field name="name">CCTV outside property</field>
+</record>
+<record id="FAC_167" model="hotel.amenities">
+<field name="name">CCTV in common areas</field>
+</record>
+<record id="FAC_168" model="hotel.amenities">
+<field name="name">Non-smoking throughout</field>
+</record>
+<record id="FAC_169" model="hotel.amenities">
+<field name="name">Private entrance</field>
+</record>
+<record id="FAC_170" model="hotel.amenities">
+<field name="name">Pants press</field>
+</record>
+<record id="FAC_171" model="hotel.amenities">
+<field name="name">Wake up service/Alarm clock</field>
+</record>
+<record id="FAC_172" model="hotel.amenities">
+<field name="name">Higher level toilet</field>
+</record>
+<record id="FAC_173" model="hotel.amenities">
+<field name="name">Kids pool</field>
+</record>
+<record id="FAC_174" model="hotel.amenities">
+<field name="name">Fitness/spa locker rooms</field>
+</record>
+<record id="FAC_175" model="hotel.amenities">
+<field name="name">Yoga classes</field>
+</record>
+<record id="FAC_176" model="hotel.amenities">
+<field name="name">Open-air bath</field>
+</record>
+<record id="FAC_177" model="hotel.amenities">
+<field name="name">Hot tub/Jacuzzi</field>
+</record>
+<record id="FAC_178" model="hotel.amenities">
+<field name="name">Italian</field>
+</record>
+<record id="FAC_179" model="hotel.amenities">
+<field name="name">Barbecue</field>
+</record>
+<record id="FAC_180" model="hotel.amenities">
+<field name="name">Childrens high chair</field>
+</record>
+<record id="FAC_181" model="hotel.amenities">
+<field name="name">Kitchenware</field>
+</record>
+<record id="FAC_182" model="hotel.amenities">
+<field name="name">Kitchen</field>
+</record>
+<record id="FAC_183" model="hotel.amenities">
+<field name="name">Landmark view</field>
+</record>
+<record id="FAC_184" model="hotel.amenities">
+<field name="name">Kitchenette</field>
+</record>
+<record id="FAC_185" model="hotel.amenities">
+<field name="name">Live sport events (broadcast)</field>
+</record>
+<record id="FAC_186" model="hotel.amenities">
+<field name="name">Stand-up comedy</field>
+</record>
+<record id="FAC_187" model="hotel.amenities">
+<field name="name">Temporary art galleries</field>
+</record>
+<record id="FAC_188" model="hotel.amenities">
+<field name="name">Tennis equipment</field>
+</record>
+<record id="FAC_189" model="hotel.amenities">
+<field name="name">Kids club</field>
+</record>
+<record id="FAC_190" model="hotel.amenities">
+<field name="name">Kid-friendly buffet</field>
+</record>
+<record id="FAC_191" model="hotel.amenities">
+<field name="name">Tea/Coffee maker</field>
+</record>
+<record id="FAC_192" model="hotel.amenities">
+<field name="name">Valet parking</field>
+</record>
+<record id="FAC_193" model="hotel.amenities">
+<field name="name">Parking garage</field>
+</record>
+<record id="FAC_194" model="hotel.amenities">
+<field name="name">Electric vehicle charging station</field>
+</record>
+<record id="FAC_195" model="hotel.amenities">
+<field name="name">Baby safety gates</field>
+</record>
+<record id="FAC_196" model="hotel.amenities">
+<field name="name">Emergency cord in bathroom</field>
+</record>
+<record id="FAC_197" model="hotel.amenities">
+<field name="name">Lower bathroom sink</field>
+</record>
+<record id="FAC_198" model="hotel.amenities">
+<field name="name">Entire unit wheelchair accessible</field>
+</record>
+<record id="FAC_199" model="hotel.amenities">
+<field name="name">Entire unit located on ground floor</field>
+</record>
+<record id="FAC_200" model="hotel.amenities">
+<field name="name">Spa and wellness centre</field>
+</record>
+<record id="FAC_201" model="hotel.amenities">
+<field name="name">Bath</field>
+</record>
+<record id="FAC_202" model="hotel.amenities">
+<field name="name">Fireplace</field>
+</record>
+<record id="FAC_203" model="hotel.amenities">
+<field name="name">Public transport tickets</field>
+</record>
+<record id="FAC_204" model="hotel.amenities">
+<field name="name">Vending machine (snacks)</field>
+</record>
+<record id="FAC_205" model="hotel.amenities">
+<field name="name">Vending machine (drinks)</field>
+</record>
+<record id="FAC_206" model="hotel.amenities">
+<field name="name">Happy hour</field>
+</record>
+<record id="FAC_207" model="hotel.amenities">
+<field name="name">Bidet</field>
+</record>
+<record id="FAC_208" model="hotel.amenities">
+<field name="name">Telephone</field>
+</record>
+<record id="FAC_209" model="hotel.amenities">
+<field name="name">Slistt parking</field>
+</record>
+<record id="FAC_210" model="hotel.amenities">
+<field name="name">Lift</field>
+</record>
+<record id="FAC_211" model="hotel.amenities">
+<field name="name">Bengali</field>
+</record>
+<record id="FAC_212" model="hotel.amenities">
+<field name="name">Slovenian</field>
+</record>
+<record id="FAC_213" model="hotel.amenities">
+<field name="name">Video</field>
+</record>
+<record id="FAC_214" model="hotel.amenities">
+<field name="name">Mosquito net</field>
+</record>
+<record id="FAC_215" model="hotel.amenities">
+<field name="name">Toilet with grab rails</field>
+</record>
+<record id="FAC_216" model="hotel.amenities">
+<field name="name">Open all year</field>
+</record>
+<record id="FAC_217" model="hotel.amenities">
+<field name="name">All ages welcome</field>
+</record>
+<record id="FAC_218" model="hotel.amenities">
+<field name="name">Pool is on rooftop</field>
+</record>
+<record id="FAC_219" model="hotel.amenities">
+<field name="name">Infinity pool</field>
+</record>
+<record id="FAC_220" model="hotel.amenities">
+<field name="name">Pool with view</field>
+</record>
+<record id="FAC_221" model="hotel.amenities">
+<field name="name">Pool/beach towels</field>
+</record>
+<record id="FAC_222" model="hotel.amenities">
+<field name="name">Filipino</field>
+</record>
+<record id="FAC_223" model="hotel.amenities">
+<field name="name">Billiards</field>
+</record>
+<record id="FAC_224" model="hotel.amenities">
+<field name="name">Laptop safe</field>
+</record>
+<record id="FAC_225" model="hotel.amenities">
+<field name="name">Spa lounge/relaxation area</field>
+</record>
+<record id="FAC_226" model="hotel.amenities">
+<field name="name">Sauna</field>
+</record>
+<record id="FAC_227" model="hotel.amenities">
+<field name="name">Czech</field>
+</record>
+<record id="FAC_228" model="hotel.amenities">
+<field name="name">French</field>
+</record>
+<record id="FAC_229" model="hotel.amenities">
+<field name="name">Russian</field>
+</record>
+<record id="FAC_230" model="hotel.amenities">
+<field name="name">Upper floors accessible by elevator</field>
+</record>
+<record id="FAC_231" model="hotel.amenities">
+<field name="name">Washing machine</field>
+</record>
+<record id="FAC_232" model="hotel.amenities">
+<field name="name">Sofa</field>
+</record>
+<record id="FAC_233" model="hotel.amenities">
+<field name="name">Urdu</field>
+</record>
+<record id="FAC_234" model="hotel.amenities">
+<field name="name">Car hire</field>
+</record>
+<record id="FAC_235" model="hotel.amenities">
+<field name="name">Coffee machine</field>
+</record>
+<record id="FAC_236" model="hotel.amenities">
+<field name="name">Radio</field>
+</record>
+<record id="FAC_237" model="hotel.amenities">
+<field name="name">Table tennis</field>
+</record>
+<record id="FAC_238" model="hotel.amenities">
+<field name="name">Adult only</field>
+</record>
+<record id="FAC_239" model="hotel.amenities">
+<field name="name">Massage chair</field>
+</record>
+<record id="FAC_240" model="hotel.amenities">
+<field name="name">Chinese</field>
+</record>
+<record id="FAC_241" model="hotel.amenities">
+<field name="name">Dishwasher</field>
+</record>
+<record id="FAC_242" model="hotel.amenities">
+<field name="name">Hiking</field>
+</record>
+<record id="FAC_243" model="hotel.amenities">
+<field name="name">Microwave</field>
+</record>
+<record id="FAC_244" model="hotel.amenities">
+<field name="name">Body treatments</field>
+</record>
+<record id="FAC_245" model="hotel.amenities">
+<field name="name">Hair colouring</field>
+</record>
+<record id="FAC_246" model="hotel.amenities">
+<field name="name">Hair cut</field>
+</record>
+<record id="FAC_247" model="hotel.amenities">
+<field name="name">Make up services</field>
+</record>
+<record id="FAC_248" model="hotel.amenities">
+<field name="name">Waxing services</field>
+</record>
+<record id="FAC_249" model="hotel.amenities">
+<field name="name">Facial treatments</field>
+</record>
+<record id="FAC_250" model="hotel.amenities">
+<field name="name">Beauty Services</field>
+</record>
+<record id="FAC_251" model="hotel.amenities">
+<field name="name">Carbon monoxide detector</field>
+</record>
+<record id="FAC_252" model="hotel.amenities">
+<field name="name">Thai</field>
+</record>
+<record id="FAC_253" model="hotel.amenities">
+<field name="name">Bar</field>
+</record>
+<record id="FAC_254" model="hotel.amenities">
+<field name="name">Public Bath</field>
+</record>
+<record id="FAC_255" model="hotel.amenities">
+<field name="name">Additional bathroom</field>
+</record>
+<record id="FAC_256" model="hotel.amenities">
+<field name="name">Executive lounge access</field>
+</record>
+<record id="FAC_257" model="hotel.amenities">
+<field name="name">Stovetop</field>
+</record>
+<record id="FAC_258" model="hotel.amenities">
+<field name="name">Oven</field>
+</record>
+<record id="FAC_259" model="hotel.amenities">
+<field name="name">Auditory guidance</field>
+</record>
+<record id="FAC_260" model="hotel.amenities">
+<field name="name">Visual aids: Tactile signs</field>
+</record>
+<record id="FAC_261" model="hotel.amenities">
+<field name="name">Visual aids: Braille</field>
+</record>
+<record id="FAC_262" model="hotel.amenities">
+<field name="name">Arabic</field>
+</record>
+<record id="FAC_263" model="hotel.amenities">
+<field name="name">Malay</field>
+</record>
+<record id="FAC_264" model="hotel.amenities">
+<field name="name">Blu-ray player</field>
+</record>
+<record id="FAC_265" model="hotel.amenities">
+<field name="name">Body scrub</field>
+</record>
+<record id="FAC_266" model="hotel.amenities">
+<field name="name">Hair styling</field>
+</record>
+<record id="FAC_267" model="hotel.amenities">
+<field name="name">Pedicure</field>
+</record>
+<record id="FAC_268" model="hotel.amenities">
+<field name="name">Manicure</field>
+</record>
+<record id="FAC_269" model="hotel.amenities">
+<field name="name">Pay-per-view channels</field>
+</record>
+<record id="FAC_270" model="hotel.amenities">
+<field name="name">German</field>
+</record>
+<record id="FAC_271" model="hotel.amenities">
+<field name="name">Foot bath</field>
+</record>
+<record id="FAC_272" model="hotel.amenities">
+<field name="name">Sofa bed</field>
+</record>
+<record id="FAC_273" model="hotel.amenities">
+<field name="name">Malayalam</field>
+</record>
+<record id="FAC_274" model="hotel.amenities">
+<field name="name">Norwegian</field>
+</record>
+<record id="FAC_275" model="hotel.amenities">
+<field name="name">Horse riding</field>
+</record>
+<record id="FAC_276" model="hotel.amenities">
+<field name="name">Indonesian</field>
+</record>
+<record id="FAC_277" model="hotel.amenities">
+<field name="name">Light therapy</field>
+</record>
+<record id="FAC_278" model="hotel.amenities">
+<field name="name">Body wrap</field>
+</record>
+<record id="FAC_279" model="hotel.amenities">
+<field name="name">Hair treatments</field>
+</record>
+<record id="FAC_280" model="hotel.amenities">
+<field name="name">Spanish</field>
+</record>
+<record id="FAC_281" model="hotel.amenities">
+<field name="name">Tamil</field>
+</record>
+<record id="FAC_282" model="hotel.amenities">
+<field name="name">Telugu</field>
+</record>
+<record id="FAC_283" model="hotel.amenities">
+<field name="name">Skiing</field>
+</record>
+<record id="FAC_284" model="hotel.amenities">
+<field name="name">Video games</field>
+</record>
+<record id="FAC_285" model="hotel.amenities">
+<field name="name">Slovak</field>
+</record>
+<record id="FAC_286" model="hotel.amenities">
+<field name="name">Croatian</field>
+</record>
+<record id="FAC_287" model="hotel.amenities">
+<field name="name">Japanese</field>
+</record>
+<record id="FAC_288" model="hotel.amenities">
+<field name="name">Vietnamese</field>
+</record>
+<record id="FAC_289" model="hotel.amenities">
+<field name="name">Fence around pool</field>
+</record>
+<record id="FAC_290" model="hotel.amenities">
+<field name="name">Computer</field>
+</record>
+<record id="FAC_291" model="hotel.amenities">
+<field name="name">Carpeted</field>
+</record>
+<record id="FAC_292" model="hotel.amenities">
+<field name="name">Steam room</field>
+</record>
+<record id="FAC_293" model="hotel.amenities">
+<field name="name">Game console PS3</field>
+</record>
+<record id="FAC_294" model="hotel.amenities">
+<field name="name">Game console</field>
+</record>
+<record id="FAC_295" model="hotel.amenities">
+<field name="name">Shared toilet</field>
+</record>
+<record id="FAC_296" model="hotel.amenities">
+<field name="name">Pet bowls</field>
+</record>
+<record id="FAC_297" model="hotel.amenities">
+<field name="name">Hungarian</field>
+</record>
+<record id="FAC_298" model="hotel.amenities">
+<field name="name">Ski equipment hire on site</field>
+</record>
+<record id="FAC_299" model="hotel.amenities">
+<field name="name">Ski school</field>
+</record>
+<record id="FAC_300" model="hotel.amenities">
+<field name="name">Ski storage</field>
+</record>
+<record id="FAC_301" model="hotel.amenities">
+<field name="name">Turkish</field>
+</record>
+<record id="FAC_302" model="hotel.amenities">
+<field name="name">Electric blankets</field>
+</record>
+<record id="FAC_303" model="hotel.amenities">
+<field name="name">Hearing accessible</field>
+</record>
+<record id="FAC_304" model="hotel.amenities">
+<field name="name">Water slide</field>
+</record>
+<record id="FAC_305" model="hotel.amenities">
+<field name="name">Cantonese</field>
+</record>
+<record id="FAC_306" model="hotel.amenities">
+<field name="name">Bowling</field>
+</record>
+<record id="FAC_307" model="hotel.amenities">
+<field name="name">Punjabi</field>
+</record>
+<record id="FAC_308" model="hotel.amenities">
+<field name="name">DVD player</field>
+</record>
+<record id="FAC_309" model="hotel.amenities">
+<field name="name">Fax</field>
+</record>
+<record id="FAC_310" model="hotel.amenities">
+<field name="name">Wine/champagne</field>
+</record>
+<record id="FAC_311" model="hotel.amenities">
+<field name="name">Polish</field>
+</record>
+<record id="FAC_312" model="hotel.amenities">
+<field name="name">Hot tub</field>
+</record>
+<record id="FAC_313" model="hotel.amenities">
+<field name="name">Laptop</field>
+</record>
+<record id="FAC_314" model="hotel.amenities">
+<field name="name">Pet basket</field>
+</record>
+<record id="FAC_315" model="hotel.amenities">
+<field name="name">Hot spring bath</field>
+</record>
+<record id="FAC_316" model="hotel.amenities">
+<field name="name">Serbian</field>
+</record>
+<record id="FAC_317" model="hotel.amenities">
+<field name="name">Shallow end</field>
+</record>
+<record id="FAC_318" model="hotel.amenities">
+<field name="name">Tennis court</field>
+</record>
+<record id="FAC_319" model="hotel.amenities">
+<field name="name">iPod dock</field>
+</record>
+<record id="FAC_320" model="hotel.amenities">
+<field name="name">Chapel/shrine</field>
+</record>
+<record id="FAC_321" model="hotel.amenities">
+<field name="name">Pool bar</field>
+</record>
+<record id="FAC_322" model="hotel.amenities">
+<field name="name">Hammam</field>
+</record>
+<record id="FAC_323" model="hotel.amenities">
+<field name="name">Afrikaans</field>
+</record>
+<record id="FAC_324" model="hotel.amenities">
+<field name="name">Mandarin</field>
+</record>
+<record id="FAC_325" model="hotel.amenities">
+<field name="name">Kannada</field>
+</record>
+<record id="FAC_326" model="hotel.amenities">
+<field name="name">Marathi</field>
+</record>
+<record id="FAC_327" model="hotel.amenities">
+<field name="name">Ukrainian</field>
+</record>
+<record id="FAC_328" model="hotel.amenities">
+<field name="name">Mini golf</field>
+</record>
+<record id="FAC_329" model="hotel.amenities">
+<field name="name">Pool view</field>
+</record>
+<record id="FAC_330" model="hotel.amenities">
+<field name="name">Bingo</field>
+</record>
+<record id="FAC_331" model="hotel.amenities">
+<field name="name">Plunge pool</field>
+</record>
+<record id="FAC_332" model="hotel.amenities">
+<field name="name">Gujarati</field>
+</record>
+<record id="FAC_333" model="hotel.amenities">
+<field name="name">Pub crawls</field>
+</record>
+<record id="FAC_334" model="hotel.amenities">
+<field name="name">Pool cover</field>
+</record>
+<record id="FAC_335" model="hotel.amenities">
+<field name="name">Lake view</field>
+</record>
+<record id="FAC_336" model="hotel.amenities">
+<field name="name">CD player</field>
+</record>
+<record id="FAC_337" model="hotel.amenities">
+<field name="name">Suitable for kids</field>
+</record>
+<record id="FAC_338" model="hotel.amenities">
+<field name="name">Dutch</field>
+</record>
+<record id="FAC_339" model="hotel.amenities">
+<field name="name">Private pool</field>
+</record>
+<record id="FAC_340" model="hotel.amenities">
+<field name="name">Korean</field>
+</record>
+<record id="FAC_341" model="hotel.amenities">
+<field name="name">Swahili</field>
+</record>
+<record id="FAC_342" model="hotel.amenities">
+<field name="name">Swimming pool toys</field>
+</record>
+<record id="FAC_343" model="hotel.amenities">
+<field name="name">Finnish</field>
+</record>
+<record id="FAC_344" model="hotel.amenities">
+<field name="name">Golf course (within 3 km)</field>
+</record>
+<record id="FAC_345" model="hotel.amenities">
+<field name="name">Heated pool</field>
+</record>
+<record id="FAC_346" model="hotel.amenities">
+<field name="name">iPad</field>
+</record>
+<record id="FAC_347" model="hotel.amenities">
+<field name="name">Portuguese</field>
+</record>
+<record id="FAC_348" model="hotel.amenities">
+<field name="name">Estonian</field>
+</record>
+<record id="FAC_349" model="hotel.amenities">
+<field name="name">Salt-water pool</field>
+</record>
+<record id="FAC_350" model="hotel.amenities">
+<field name="name">Squash</field>
+</record>
+<record id="FAC_351" model="hotel.amenities">
+<field name="name">Danish</field>
+</record>
+<record id="FAC_352" model="hotel.amenities">
+<field name="name">Swedish</field>
+</record>
+<record id="FAC_353" model="hotel.amenities">
+<field name="name">Casino</field>
+</record>
+<record id="FAC_354" model="hotel.amenities">
+<field name="name">Irish</field>
+</record>
+<record id="FAC_355" model="hotel.amenities">
+<field name="name">Archery</field>
+</record>
+<record id="FAC_356" model="hotel.amenities">
+<field name="name">Greek</field>
+</record>
+<record id="FAC_357" model="hotel.amenities">
+<field name="name">Lao</field>
+</record>
+<record id="FAC_358" model="hotel.amenities">
+<field name="name">Belarusian</field>
+</record>
+<record id="FAC_359" model="hotel.amenities">
+<field name="name">Farsi</field>
+</record>
+
+ </data>
+ </odoo>

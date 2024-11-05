@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_hotel_list" model="ir.ui.view">
+        <field name="name">hotel.hotel.list</field>
+        <field name="model">hotel.hotel</field>
+        <field name="arch" type="xml">
+            <list string="Hotels">
+                <field name="sequence" widget="handle"/>
+                <field name="name" string="Name"/>
+                <field name="hotel_type"/>
+            </list>
+        </field>
+    </record>
+    <record id="view_hotel_form" model="ir.ui.view">
+        <field name="name">hotel.hotel.form</field>
+        <field name="model">hotel.hotel</field>
+        <field name="arch" type="xml">
+            <form string="Hotels">
+                <header>
+                </header>
+                <sheet>
+                    <field name="active" invisible="1"/>
+                    <div class="oe_button_box" name="button_box"/>
+                   <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <field name="image_1920" widget='image' class="oe_avatar" options='{"preview_image": "image_128"}'/>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name" default_focus="1" placeholder="Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+
+                            <field name="company_id"/>
+                            <field name="about"/>
+                            <field name="company_info"/>
+                            <field name="property_info"/>
+                            <field name="neighbourhood_info"/>
+                            <field name="the_fine_print"/>
+                            <field name="sequence"/>
+                            <field name="active"/>
+                            <field name="is_published"/>
+                            <field name="tot_rooms"/>
+                            <field name="tot_beds"/>
+                            <field name="misc_info"/>
+                        </group>
+                        <group>
+                            <field name="hotel_type"/>
+                            <field name="star_rate" widget="priority"/>
+                            <field name="featured_amenity_ids" widget="many2many_tags"/>
+                            <field name="payment_method_ids" widget="many2many_tags"/>
+                            <field name="email" widget="email"/>
+                            <field name="phone_number"/>
+                            <field name="check_in_time"/>
+                            <field name="check_out_time"/>
+                            <field name='lattitude'/>
+                            <field name='longitude'/>
+                            <field name='location'/>
+                            <field name='cover_image' widget='image' class="oe_avatar"/>
+
+                        </group>
+                    </group>
+<!--                    <notebook colspan="4">-->
+<!--                        <page string="Room Categories">-->
+<!--                            <field name="room_category_ids" context="{'default_hotel_id': active_id, 'form_view_ref': 'wt_hotel_reservation.view_appeul_room_category_form'}" mode="kanban">-->
+<!--                                <kanban>-->
+<!--                                    <field name="id"/>-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="size"/>-->
+
+<!--                                    <templates>-->
+<!--                                        <t t-name="kanban-box">-->
+<!--                                            <div class="oe_kanban_global_click">-->
+<!--                                                <div class="o_kanban_image">-->
+<!--                                                    <img t-att-src="kanban_image('room.category', 'featured_image', record.id.raw_value)" alt="Category Image" class="o_image_64_contain"/>-->
+<!--                                                </div>-->
+<!--                                                <div class="oe_kanban_details">-->
+<!--                                                    <h2 class="o_kanban_record_title"><field name="name"/></h2>-->
+
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </t>-->
+<!--                                    </templates>-->
+<!--                                </kanban>-->
+<!--                                <form string="Room Category">-->
+<!--                                    <sheet>-->
+<!--                                        <field name="featured_image" widget='image' class="oe_avatar" options='{"preview_image": "image_128"}'/>-->
+<!--                                            <group>-->
+<!--                                                <field name="name" default_focus="1" placeholder="Name"/>-->
+<!--                                                <field name="size" placeholder="size"/>-->
+<!--                                                <field name="description" />-->
+<!--                                            </group>-->
+
+
+
+<!--                                    </sheet>-->
+<!--                                </form>-->
+<!--                            </field>-->
+<!--                        </page>-->
+
+<!--                        <page string="Hotel Images">-->
+<!--                            <field name="hotel_image_ids" mode="kanban">-->
+<!--                                <kanban>-->
+<!--                                    <field name="id"/>-->
+<!--                                    <field name="image_1920"/>-->
+<!--                                    <templates>-->
+<!--                                        <t t-name="kanban-box">-->
+<!--                                            <span class="oe_kanban_global_click">-->
+<!--                                                <img class="img-fluid img-thumbnail" t-att-src="kanban_image('hotel.image', 'image_1920', record.id.raw_value)" alt="Hotel Images"/>-->
+<!--                                           </span>-->
+<!--                                        </t>-->
+<!--                                    </templates>-->
+<!--                                </kanban>-->
+
+<!--                                <form string="Rooms">-->
+<!--                                    <sheet>-->
+<!--                                        <field name="image_1920" widget="image" options="{&quot;preview_image&quot;: &quot;image_128&quot;}"/>-->
+<!--                                        <field name="hotel_id" invisible="1"/>-->
+<!--                                    </sheet>-->
+<!--                                </form>-->
+<!--                            </field>-->
+<!--                        </page>-->
+
+
+<!--                        <page string="Hotel Amenities">-->
+<!--                            <field name="amenities_ids">-->
+
+<!--                            </field>-->
+<!--                        </page>-->
+
+<!--                        <page string="Extra Bed Policy">-->
+<!--                            <field name="extra_bed_policy_ids">-->
+<!--                                <list editable="top">-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="price"/>-->
+<!--                                </list>-->
+<!--                                <form>-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="price"/>-->
+<!--                                </form>-->
+<!--                            </field>-->
+<!--                        </page>-->
+
+<!--                        <page string="Surroundings">-->
+<!--                            <field name="surrounding_lines_ids">-->
+<!--                                <list editable="top">-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="type"/>-->
+<!--                                    <field name="description"/>-->
+<!--                                    <field name="distance"/>-->
+<!--                                </list>-->
+<!--                                <form>-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="type"/>-->
+<!--                                    <field name="description"/>-->
+<!--                                    <field name="distance"/>-->
+<!--                                </form>-->
+<!--                            </field>-->
+<!--                        </page>-->
+<!--                        <page string="Restaurants">-->
+<!--                            <field name="restaurant_lines_ids">-->
+<!--                                <list editable="top">-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="cuisine"/>-->
+<!--                                    <field name="open_for"/>-->
+<!--                                    <field name="ambiance"/>-->
+<!--                                </list>-->
+<!--                                <form>-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="cuisine"/>-->
+<!--                                    <field name="open_for"/>-->
+<!--                                    <field name="ambiance"/>-->
+<!--                                </form>-->
+<!--                            </field>-->
+<!--                        </page>-->
+<!--                        <page string="FAQs">-->
+<!--                            <field name="faqs_lines_ids">-->
+<!--                                <list>-->
+<!--                                    <field name="name"/>-->
+<!--                                    <field name="answer"/>-->
+<!--                                </list>-->
+<!--                                <form>-->
+<!--                                    <group>-->
+<!--                                        <field name="name"/>-->
+<!--                                    <field name="answer"/>-->
+<!--                                    </group>-->
+
+<!--                                </form>-->
+<!--                            </field>-->
+<!--                        </page>-->
+
+<!--                    </notebook>-->
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="hotel_management_action" model="ir.actions.act_window">
+        <field name="name">Hotels</field>
+        <field name="res_model">hotel.hotel</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+            Create a new Hotel
+          </p>
+        </field>
+    </record>
+
+
+
+
+</odoo>

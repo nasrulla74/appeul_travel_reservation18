@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="ap_travel_login_page_layout" inherit_id="web.login_layout" name="Login Page Layout">
+        <xpath expr="//div[@class='card-body']//div[last()]" position="replace">
+            <span></span>
+        </xpath>
+    </template>
+
+    <record model="ir.ui.view" id="portal_record_sidebar">
+        <field name="inherit_id" ref="portal.portal_record_sidebar" />
+        <field name="arch" type="xml">
+            <xpath expr="//*[contains(@class, 'card-footer')]" position="replace">
+                <!-- <attribute name="t-if">False</attribute> -->
+            </xpath>
+        </field>
+    </record>
+
+<!--    <template id="web.ap_travel_brand_promotion_message">-->
+<!--        <xpath expr="//final_message" position="replace"></xpath>-->
+<!--    </template>-->
+
+<!--    <record id="res_config_settings_view_form" model="ir.ui.view">-->
+<!--        <field name="name">res.config.settings.view.form.inherit.base.setup.custom</field>-->
+<!--        <field name="model">res.config.settings</field>-->
+<!--        <field name="priority" eval="0"/>-->
+<!--        <field name="inherit_id" ref="base.res_config_settings_view_form"/>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <xpath expr="//div[@id='about']" position="replace">-->
+
+<!--            </xpath>-->
+<!--            </field>-->
+<!--    </record>-->
+</odoo>

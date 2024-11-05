@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Hotel Types -->
+        <record id="ht1" model="hotel.type">
+            <field name="name">Resorts</field>
+        </record>
+        <record id="ht2" model="hotel.type">
+            <field name="name">Hotels</field>
+        </record>
+        <record id="ht3" model="hotel.type">
+            <field name="name">Guest Houses</field>
+        </record>
+
+
+    </data>
+</odoo>

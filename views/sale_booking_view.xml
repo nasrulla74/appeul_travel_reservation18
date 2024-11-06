@@ -4,10 +4,6 @@
 		<field name="name">hotel.booking.search</field>
 		<field name="model">sale.order</field>
 		<field name="arch" type="xml">
-<!--			<search string="Bookings">-->
-<!--				<field name="booking_name"/>-->
-<!--			</search>-->
-
 
             <search string="Bookings">
 				<field name="booking_name"/>

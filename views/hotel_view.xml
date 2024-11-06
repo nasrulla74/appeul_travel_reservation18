@@ -60,136 +60,136 @@
 
                         </group>
                     </group>
-<!--                    <notebook colspan="4">-->
-<!--                        <page string="Room Categories">-->
-<!--                            <field name="room_category_ids" context="{'default_hotel_id': active_id, 'form_view_ref': 'wt_hotel_reservation.view_appeul_room_category_form'}" mode="kanban">-->
-<!--                                <kanban>-->
-<!--                                    <field name="id"/>-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="size"/>-->
+                    <notebook colspan="4">
+                        <page string="Room Categories">
+                            <field name="room_category_ids" mode="kanban">
+                                <kanban>
+                                    <field name="id"/>
+                                    <field name="name"/>
+                                    <field name="size"/>
 
-<!--                                    <templates>-->
-<!--                                        <t t-name="kanban-box">-->
-<!--                                            <div class="oe_kanban_global_click">-->
-<!--                                                <div class="o_kanban_image">-->
-<!--                                                    <img t-att-src="kanban_image('room.category', 'featured_image', record.id.raw_value)" alt="Category Image" class="o_image_64_contain"/>-->
-<!--                                                </div>-->
-<!--                                                <div class="oe_kanban_details">-->
-<!--                                                    <h2 class="o_kanban_record_title"><field name="name"/></h2>-->
+                                    <templates>
+                                        <t t-name="kanban-box">
+                                            <div class="oe_kanban_global_click">
+                                                <div class="o_kanban_image">
+                                                    <img t-att-src="kanban_image('room.category', 'featured_image', record.id.raw_value)" alt="Category Image" class="o_image_64_contain"/>
+                                                </div>
+                                                <div class="oe_kanban_details">
+                                                    <h2 class="o_kanban_record_title"><field name="name"/></h2>
 
-<!--                                                </div>-->
-<!--                                            </div>-->
-<!--                                        </t>-->
-<!--                                    </templates>-->
-<!--                                </kanban>-->
-<!--                                <form string="Room Category">-->
-<!--                                    <sheet>-->
-<!--                                        <field name="featured_image" widget='image' class="oe_avatar" options='{"preview_image": "image_128"}'/>-->
-<!--                                            <group>-->
-<!--                                                <field name="name" default_focus="1" placeholder="Name"/>-->
-<!--                                                <field name="size" placeholder="size"/>-->
-<!--                                                <field name="description" />-->
-<!--                                            </group>-->
-
-
-
-<!--                                    </sheet>-->
-<!--                                </form>-->
-<!--                            </field>-->
-<!--                        </page>-->
-
-<!--                        <page string="Hotel Images">-->
-<!--                            <field name="hotel_image_ids" mode="kanban">-->
-<!--                                <kanban>-->
-<!--                                    <field name="id"/>-->
-<!--                                    <field name="image_1920"/>-->
-<!--                                    <templates>-->
-<!--                                        <t t-name="kanban-box">-->
-<!--                                            <span class="oe_kanban_global_click">-->
-<!--                                                <img class="img-fluid img-thumbnail" t-att-src="kanban_image('hotel.image', 'image_1920', record.id.raw_value)" alt="Hotel Images"/>-->
-<!--                                           </span>-->
-<!--                                        </t>-->
-<!--                                    </templates>-->
-<!--                                </kanban>-->
-
-<!--                                <form string="Rooms">-->
-<!--                                    <sheet>-->
-<!--                                        <field name="image_1920" widget="image" options="{&quot;preview_image&quot;: &quot;image_128&quot;}"/>-->
-<!--                                        <field name="hotel_id" invisible="1"/>-->
-<!--                                    </sheet>-->
-<!--                                </form>-->
-<!--                            </field>-->
-<!--                        </page>-->
+                                                </div>
+                                            </div>
+                                        </t>
+                                    </templates>
+                                </kanban>
+                                <form string="Room Category">
+                                    <sheet>
+                                        <field name="featured_image" widget='image' class="oe_avatar" options='{"preview_image": "image_128"}'/>
+                                            <group>
+                                                <field name="name" default_focus="1" placeholder="Name"/>
+                                                <field name="size" placeholder="size"/>
+                                                <field name="description" />
+                                            </group>
 
 
-<!--                        <page string="Hotel Amenities">-->
-<!--                            <field name="amenities_ids">-->
 
-<!--                            </field>-->
-<!--                        </page>-->
+                                    </sheet>
+                                </form>
+                            </field>
+                        </page>
 
-<!--                        <page string="Extra Bed Policy">-->
-<!--                            <field name="extra_bed_policy_ids">-->
-<!--                                <list editable="top">-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="price"/>-->
-<!--                                </list>-->
-<!--                                <form>-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="price"/>-->
-<!--                                </form>-->
-<!--                            </field>-->
-<!--                        </page>-->
+                        <page string="Hotel Images">
+                            <field name="hotel_image_ids" mode="kanban">
+                                <kanban>
+                                    <field name="id"/>
+                                    <field name="image_1920"/>
+                                    <templates>
+                                        <t t-name="kanban-box">
+                                            <span class="oe_kanban_global_click">
+                                                <img class="img-fluid img-thumbnail" t-att-src="kanban_image('hotel.image', 'image_1920', record.id.raw_value)" alt="Hotel Images"/>
+                                           </span>
+                                        </t>
+                                    </templates>
+                                </kanban>
 
-<!--                        <page string="Surroundings">-->
-<!--                            <field name="surrounding_lines_ids">-->
-<!--                                <list editable="top">-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="type"/>-->
-<!--                                    <field name="description"/>-->
-<!--                                    <field name="distance"/>-->
-<!--                                </list>-->
-<!--                                <form>-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="type"/>-->
-<!--                                    <field name="description"/>-->
-<!--                                    <field name="distance"/>-->
-<!--                                </form>-->
-<!--                            </field>-->
-<!--                        </page>-->
-<!--                        <page string="Restaurants">-->
-<!--                            <field name="restaurant_lines_ids">-->
-<!--                                <list editable="top">-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="cuisine"/>-->
-<!--                                    <field name="open_for"/>-->
-<!--                                    <field name="ambiance"/>-->
-<!--                                </list>-->
-<!--                                <form>-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="cuisine"/>-->
-<!--                                    <field name="open_for"/>-->
-<!--                                    <field name="ambiance"/>-->
-<!--                                </form>-->
-<!--                            </field>-->
-<!--                        </page>-->
-<!--                        <page string="FAQs">-->
-<!--                            <field name="faqs_lines_ids">-->
-<!--                                <list>-->
-<!--                                    <field name="name"/>-->
-<!--                                    <field name="answer"/>-->
-<!--                                </list>-->
-<!--                                <form>-->
-<!--                                    <group>-->
-<!--                                        <field name="name"/>-->
-<!--                                    <field name="answer"/>-->
-<!--                                    </group>-->
+                                <form string="Rooms">
+                                    <sheet>
+                                        <field name="image_1920" widget="image" options="{&quot;preview_image&quot;: &quot;image_128&quot;}"/>
+                                        <field name="hotel_id" invisible="1"/>
+                                    </sheet>
+                                </form>
+                            </field>
+                        </page>
 
-<!--                                </form>-->
-<!--                            </field>-->
-<!--                        </page>-->
 
-<!--                    </notebook>-->
+                        <page string="Hotel Amenities">
+                            <field name="amenities_ids">
+
+                            </field>
+                        </page>
+
+                        <page string="Extra Bed Policy">
+                            <field name="extra_bed_policy_ids">
+                                <list editable="top">
+                                    <field name="name"/>
+                                    <field name="price"/>
+                                </list>
+                                <form>
+                                    <field name="name"/>
+                                    <field name="price"/>
+                                </form>
+                            </field>
+                        </page>
+
+                        <page string="Surroundings">
+                            <field name="surrounding_lines_ids">
+                                <list editable="top">
+                                    <field name="name"/>
+                                    <field name="type"/>
+                                    <field name="description"/>
+                                    <field name="distance"/>
+                                </list>
+                                <form>
+                                    <field name="name"/>
+                                    <field name="type"/>
+                                    <field name="description"/>
+                                    <field name="distance"/>
+                                </form>
+                            </field>
+                        </page>
+                        <page string="Restaurants">
+                            <field name="restaurant_lines_ids">
+                                <list editable="top">
+                                    <field name="name"/>
+                                    <field name="cuisine"/>
+                                    <field name="open_for"/>
+                                    <field name="ambiance"/>
+                                </list>
+                                <form>
+                                    <field name="name"/>
+                                    <field name="cuisine"/>
+                                    <field name="open_for"/>
+                                    <field name="ambiance"/>
+                                </form>
+                            </field>
+                        </page>
+                        <page string="FAQs">
+                            <field name="faqs_lines_ids">
+                                <list>
+                                    <field name="name"/>
+                                    <field name="answer"/>
+                                </list>
+                                <form>
+                                    <group>
+                                        <field name="name"/>
+                                    <field name="answer"/>
+                                    </group>
+
+                                </form>
+                            </field>
+                        </page>
+
+                    </notebook>
                 </sheet>
             </form>
         </field>

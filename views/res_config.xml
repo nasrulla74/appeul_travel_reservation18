@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="res_config_settings_view_form" model="ir.ui.view">
+    <record id="appeul_booking_res_config_settings_view_form" model="ir.ui.view">
         <field name="name">res.config.settings.view.form.inherit.hotel.booking</field>
         <field name="model">res.config.settings</field>
         <field name="priority" eval="10"/>
         <field name="inherit_id" ref="base.res_config_settings_view_form" />
         <field name="arch" type="xml">
-            <xpath expr="//div[hasclass('settings')]" position="inside">
+            <xpath expr="//form" position="inside">
 <!--                <div class="app_settings_block o_not_app" data-string="Hotel Booking" string="Hotel Booking" data-key="wt_hotel_reservation">-->
                 <div class="app_settings_block" data-string="Hotel Booking" string="Hotel Booking" data-key="appeul_travel_reservation18">
                     <h2>Hotel Booking</h2>
